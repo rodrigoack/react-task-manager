@@ -5,7 +5,7 @@ class Task extends Component {
   render() {
     return (
 
-      <li>
+      <li className="list-group-item">
         Example task
       </li>
       

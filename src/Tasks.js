@@ -7,7 +7,7 @@ class Tasks extends Component {
   render() {
     return (
 
-      <ul>
+      <ul className="list-group">
         <Task/>
       </ul>
       

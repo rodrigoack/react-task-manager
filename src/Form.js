@@ -22,14 +22,16 @@ class Form extends Component {
 	render() {
 		return (
 
-      <form onSubmit={this.handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="task">Task</label>
-          <input type="text" id="task" className="form-control" placeholder="Task"
-              onChange={this.handleChange}/>
-        </div>
-        <button className="btn btn-default" type="submit">Create</button>
-      </form>
+      <div className="well">
+        <form onSubmit={this.handleSubmit}>
+          <div className="form-group">
+            <label htmlFor="task">Task</label>
+            <input type="text" id="task" className="form-control" placeholder="Task"
+                onChange={this.handleChange}/>
+          </div>
+          <button className="btn btn-primary" type="submit">Create</button>
+        </form>
+      </div>
 		
     );
 	}
